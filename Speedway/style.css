@@ -1,0 +1,142 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image:url("img/connectwork.png");
+	font-family: 'Merriweather', serif;
+	color:#bdbd8f;
+	margin:0;
+}
+
+#container
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:1350px;
+	
+}
+
+#naglowek
+{
+	
+
+	padding:50px;
+	
+	
+}
+#naglowek2
+{
+	padding:0px;
+}
+
+.tytul
+{
+	font-size:25px;
+	padding-top:80px;
+	padding-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1025px;
+}
+
+#foto1
+{
+	border-radius:40px;
+	width:750px;
+	height:400px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+	
+}
+
+.menu
+{
+	margin:0;
+	padding:0;
+		
+}
+
+.menu li
+{
+	list-style-type: none;
+	display:inline-block;
+	padding-left:100px;
+	padding-top:0px;
+	font-size:20px;
+	text-align:right;
+	margin:0;
+}
+
+.menu li:first-child
+{
+	padding:0;
+}
+
+a
+{
+	text-decoration:none;
+	color:#bdbd8f;
+}
+
+a:hover
+{
+	color:#dfdfaf;
+}
+
+.nieaktywny
+{
+	color:#e4b431;
+}
+
+p
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align:justify;
+	font-size:19px;
+	line-height:1.5;
+}
+#zdjecie
+{
+	float:left;
+	text-align:center;
+	padding:160px 0px 160px 80px;
+	/*transform: scale(1.15);*/
+
+
+	
+	
+}
+#zasady
+{
+	float:left;
+	text-align:center;
+	padding:220px 0px 160px 80px;
+
+
+	
+}
+
+.slawy
+{
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	padding:40px;
+
+
+	
+}
+
+.slawy p
+{
+	text-align:center;
+	padding-top:20px;
+}
+.slawy-foto
+{
+	border-radius:30px;border: 1px solid #bdbd8f;	
+	width:600px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+
+}

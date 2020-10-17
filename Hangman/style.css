@@ -1,0 +1,98 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/light-veneer.png");
+	color: #b88c12;
+	font-size: 28px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+
+#pojemnik
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:50px;
+}
+
+#plansza
+{
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+}
+
+#szubienica
+{
+	float: left;
+	width: 450px;
+	padding-top:50px;
+	text-align: center;
+	min-height: 600px;
+	border-radius:30px;
+}
+
+#alfabet
+{
+	float: left;
+	width: 450px;
+	padding-left:100px;
+	padding-top:200px;
+	text-align: center;
+	min-height: 600px;
+	
+}
+
+.foto
+{
+	border-radius:30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.litera
+{
+		height: 30px;
+		width: 30px;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		border: 3px solid gray;
+		float: left;
+		cursor: pointer;
+		border-radius: 15px;
+}
+.litera:hover
+{
+	background-color: #222222;
+	color:white;
+	border: 3px solid white;
+	
+}
+.reset
+{
+	color:#006e16;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover
+{
+	color:#44af5a;
+}
+
+.skucha
+{
+	color:#a60000;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.skucha:hover
+{
+	color:#ea4444;
+}

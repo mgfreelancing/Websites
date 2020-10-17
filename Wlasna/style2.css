@@ -1,0 +1,173 @@
+body
+{
+		/* Background pattern from Toptal Subtle Patterns */
+		background-image: url("img/symfonia.png");
+		font-size: 24px;
+		margin:0px;
+		
+		
+}
+
+
+
+#container
+{
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+#naglowek
+{
+		position:relative;
+		margin-top: 30px;
+		width:1200px;	
+		margin-left: auto;
+		margin-right: auto;			
+}
+
+ul
+{
+		list-style-type: none;
+		margin-top:60px;
+		padding:0px;
+		line-height: 100%;
+		min-height:30px;
+		text-transform:uppercase;
+}
+
+ul > li
+{
+		float:left;
+		padding-left: 43px;
+		padding-right: 43px;
+		font-size: 20px;
+		text-shadow:1px 1px 2px;
+		min-height:40px;
+		font-family: 'Merienda', cursive;
+		font-weight: bold;
+		color: #4b5320;
+		margin:0px;
+		
+}
+ ul> li > ul 
+{
+		
+		margin-top:15px;
+		position:absolute;
+		text-align:center;
+}
+
+ul > li > ul > li
+{
+		display:none;
+		clear:both;
+		padding-left:0px;
+		font-size:14px;
+		text-align:center;
+		
+		
+}
+
+ul> li:hover > ul > li
+{
+		display:block;
+		text-align:center;
+		
+}
+
+.menu > li:first-child
+{
+		/*border-left: 1px dashed #4b5320;*/
+		padding-left:0px;
+}
+
+.menu > li:last-child
+{
+		/*border-left: 1px dashed #4b5320;*/
+		padding-right:0px;
+}
+
+.menu a
+{
+		text-decoration:none;
+		color:#4b5320;		
+}
+
+.menu a:hover
+{
+		color:#7e8653;		
+}
+#muzyka
+{
+		margin-top: 150px;
+		height:560px;
+}
+
+#tresc
+{
+		float:left;
+		width:700px;
+		margin-right: 100px;
+}
+
+#tresc2
+{
+		float:left;
+		width:700px;
+		margin-left: 100px;
+}
+p.tekst
+{
+
+		float: left;
+		font-family: 'Merienda', cursive;
+		color: #4b5320;
+		font-weight: 400;
+		font-size: 20px;
+		text-align:justify;
+		text-indent: 1.5em;
+		line-height:200%;
+		margin-top:0px;
+		margin-bottom:0px;
+}
+
+#foto
+{
+		float: left;
+		height: 548px;
+		border-radius: 10px;
+		border:1px solid #4b5320;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.stopka
+{
+		width:1200px;
+		/*background-color: olive;*/
+		margin-top: 181px;
+		font-family: 'Merienda', cursive;
+		color: #4b5320;
+		font-weight: 400;
+		font-size: 15px;
+		text-align:center;
+		padding-right:20px;
+}
+
+.stopka a
+{
+		text-decoration: none;
+		color:#4b5320;
+		
+}
+.stopka a:hover
+{
+		text-decoration: none;
+		color: none;
+}
+.stopka a:visited
+{
+		text-decoration: none;
+		color: #4b5320;
+}
